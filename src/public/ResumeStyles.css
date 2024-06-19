@@ -1,0 +1,11 @@
+#resume-wrapper{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    width:45rem;
+    height:30rem;
+    display: inline-block;
+    margin:auto;
+}
