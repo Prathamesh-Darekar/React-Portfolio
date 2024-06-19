@@ -18,14 +18,13 @@ function heroSection() {
                     </div>
                     <p>
                         Welcome to my portfolio! I'm Prathamesh Darekar, a passionate web developer
-                        dedicated to built attractive and scalable websites. I strive to [Your Career Goals or Objectives]. Explore my work and
+                        dedicated to built attractive and scalable websites. I strive to create responsive and interactive website. Explore my work and
                         let's connect to discuss how we can create something exceptional together.
                     </p>
                 </div><br></br>
                 <div id="button-social">
                     <button id="explore-btn"><a href='#projects'>Explore!!</a></button>
                     <div id="social">
-                        {/* <a href="https://prathameshdarekar.netlify.app" target='_blank'><FontAwesomeIcon icon={faUser} size="lg" style={{ color: "#7E23CF", }} /></a> */}
                         <a href="https://www.linkedin.com/in/prathamesh-darekar-b04023254/" target='_blank'><FontAwesomeIcon icon={faLinkedin} style={{ color: "#005eff" }} size='2xl' /></a>&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://github.com/Prathamesh-Darekar" target='_blank'><FontAwesomeIcon icon={faSquareGithub} size="2xl" style={{ color: "#000000", }} /></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
