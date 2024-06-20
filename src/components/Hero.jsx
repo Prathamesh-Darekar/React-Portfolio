@@ -14,10 +14,10 @@ function heroSection() {
                     </div>
                     <div id="me">
                         <h2 id='my-name'>My name is <span>Prathamesh Darekar</span></h2>
-                        <h3>I am an aspiring web developer</h3>
+                        <h3>I am a student</h3>
                     </div>
                     <p>
-                        Welcome to my portfolio! I'm Prathamesh Darekar, a passionate web developer
+                        Welcome to my portfolio! I'm Prathamesh Darekar, a student aspiring to be a web developer. I am
                         dedicated to built attractive and scalable websites. I strive to create responsive and interactive website. Explore my work and
                         let's connect to discuss how we can create something exceptional together.
                     </p>
