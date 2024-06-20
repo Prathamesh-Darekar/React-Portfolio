@@ -7,10 +7,10 @@ footer {
     width: 100%;
     bottom: 0;
     z-index: -1;
-    padding: 20px 0;
+    padding: 5px 0;
 }
 footer h1 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     font-weight: 800;
     background-image: linear-gradient(75deg, #d7d2cc 0%, #304352 100%);
     background-clip: text;
@@ -18,63 +18,62 @@ footer h1 {
     overflow: hidden;
     color: transparent;
     padding: 50px;
-    animation: anim 8s linear infinite reverse;
+    animation: anim 6s linear infinite reverse;
     white-space: nowrap;
 }
 @keyframes anim {
     0% {
-        transform: translateX(-1200px);
+        transform: translateX(-1100px);
     }
-
     100% {
-        transform: translateX(1200px);
+        transform: translateX(1100px);
     }
 }
 @media(width<1000px) {
     footer h1 {
-        font-size: 4rem;
+        font-size: 2.5rem;
         font-weight: 600;
+        padding: 40px;
         animation: anim 7s linear infinite reverse;
     }
     @keyframes anim {
         0% {
-            transform: translateX(-900px);
+            transform: translateX(-800px);
         }
-
         100% {
-            transform: translateX(900px);
+            transform: translateX(800px);
         }
     }
 }
 @media(width<700px) {
     footer h1 {
-        font-size: 3.5rem;
+        font-size: 2rem;
         font-weight: 600;
+        padding: 30px;
         animation: anim 6s linear infinite reverse;
     }
     @keyframes anim {
         0% {
-            transform: translateX(-900px);
+            transform: translateX(-800px);
         }
-
         100% {
-            transform: translateX(900px);
+            transform: translateX(800px);
         }
     }
 }
 @media(width<500px) {
     footer h1 {
-        font-size: 3rem;
+        font-size: 1.8rem;
         font-weight: 600;
-        animation: anim 5s linear infinite reverse;
+        padding: 20px;
+        animation: anim 3s linear infinite reverse;
     }
     @keyframes anim {
         0% {
-            transform: translateX(-500px);
+            transform: translateX(-400px);
         }
-
         100% {
-            transform: translateX(500px);
+            transform: translateX(400px);
         }
     }
 }
