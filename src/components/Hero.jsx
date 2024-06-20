@@ -14,7 +14,6 @@ function heroSection() {
                     </div>
                     <div id="me">
                         <h2 id='my-name'>My name is <span>Prathamesh Darekar</span></h2>
-                       /* <h3>I am a student</h3>*/
                     </div>
                     <p>
                         Welcome to my portfolio! I'm Prathamesh Darekar, a student aspiring to be a web developer. I am
