@@ -1,76 +1,79 @@
-*{
+* {
   box-sizing: border-box;
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   /* color:white !important */
 }
-html{
+html {
   scroll-behavior: smooth;
 }
-body{
-  height:2000px;
-  padding-top:70px;
+html ::-webkit-scrollbar {
+  display: none;
+}
+body {
+  height: 2000px;
+  padding-top: 70px;
   /* background:#101927; */
-  background: #FEFFFE;
+  background: #fefffe;
 }
-.wrapper{
-  padding:0 20px 50px;
+.wrapper {
+  padding: 0 20px 50px;
   position: relative;
-  background: #FEFFFE;
+  background: #fefffe;
 }
-h1{
+h1 {
   text-align: center;
   font-size: 2rem;
   text-transform: uppercase;
-  color:#1F2937;
+  color: #1f2937;
 }
 
-.catchy-detail{
+.catchy-detail {
   text-align: center;
   font-size: 1rem;
-  color:#6B7391;;
+  color: #6b7391;
 }
-p{
+p {
   font-size: 1rem;
-  color:#3d4768d5;
+  color: #3d4768d5;
 }
 
-.heading{
+.heading {
   position: relative;
 }
-.heading:before{
-  content:"";
+.heading:before {
+  content: "";
   position: absolute;
-  top:50%;
-  height:2px;
-  width:35%;
+  top: 50%;
+  height: 2px;
+  width: 35%;
   background-color: #212936b0;
 }
-.heading:after{
-  content:"";
+.heading:after {
+  content: "";
   position: absolute;
-  top:50%;
-  right:0;
-  height:2px;
-  width:35%;
+  top: 50%;
+  right: 0;
+  height: 2px;
+  width: 35%;
   background-color: #212936b0;
 }
-a{
+a {
   text-decoration: none;
 }
-#body{
+#body {
   position: relative;
-  z-index:10;
+  z-index: 10;
 }
-#space{
-  height:220px;
-  background:transparent
+#space {
+  height: 220px;
+  background: transparent;
 }
-#scroller{
-  background:#FEFFFE ;
+#scroller {
+  background: #fefffe;
   position: relative;
   bottom: 300px;
   margin-top: 300px;
