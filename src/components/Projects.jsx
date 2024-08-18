@@ -6,6 +6,7 @@ import currencyConverter from "../assets/project images/currency converter.png";
 import { useState } from "react";
 import Project from "./projectCard";
 import wanderlust from "../assets/project images/wanderlust.png";
+import weatherly from "../assets/project images/weatherly.png";
 
 function Projects() {
   const [cards] = useState([
@@ -16,6 +17,14 @@ function Projects() {
       desc: "Built a dynamic rental listing platform using Node.js, Express.js, and MongoDB,following the MVC architecture.This project includes features like user authentication and authorization.",
       liveLink: "https://wanderlust-delta-64oi.onrender.com/listings",
       gitHubLink: "https://github.com/Prathamesh-Darekar/Wanderlust-Delta.git",
+    },
+    {
+      image: weatherly,
+      alternative: "weather-app-image",
+      title: "Weatherly",
+      desc: "A React.js weather app using the OpenWeatherMap API to display current conditions and forecasts. Features a responsive design for seamless user experience.",
+      liveLink: "https://cloudview.netlify.app/",
+      gitHubLink: "https://github.com/Prathamesh-Darekar/Weather-app.git",
     },
     {
       image: currencyConverter,
