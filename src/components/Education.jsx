@@ -22,7 +22,7 @@ function Education(){
                 </div>
                 <div id="degree" className='details'>
                     <h3>SSLC</h3>
-                    <h4>Sri Siddhivinayaka School Hattiangadi <span style={{color:'#009688',fontWeight:"600"}}>- 88%</span></h4>
+                    <h4>Sri Siddhivinayaka School Hattiangadi <span style={{color:'#009688',fontWeight:"600"}}>- 84%</span></h4>
                     <p style={{color:'#009688'}}>2019-2020</p>
                     <p>I completed my 10th standard education at Sri Siddhivinaya School in Hattiangadi. This institution provided a strong academic foundation coupled with a nurturing environment, fostering my early interest in learning and personal growth.</p>
                 </div>
