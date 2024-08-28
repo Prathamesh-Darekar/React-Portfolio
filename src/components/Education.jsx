@@ -21,8 +21,8 @@ function Education(){
                     <p>I completed my 12th standard education at Government College Kundapura, where I pursued Commerce with Computer Science. This academic journey not only equipped me with a comprehensive understanding of commerce principles but also enhanced my proficiency in computer science applications.</p>
                 </div>
                 <div id="degree" className='details'>
-                    <h3>SSLC</h3>
-                    <h4>Sri Siddhivinayaka School Hattiangadi <span style={{color:'#009688',fontWeight:"600"}}>- 88%</span></h4>
+                    <h3>10th</h3>
+                    <h4>Sri Siddhivinayaka School Hattiangadi <span style={{color:'#009688',fontWeight:"600"}}>- 84%</span></h4>
                     <p style={{color:'#009688'}}>2019-2020</p>
                     <p>I completed my 10th standard education at Sri Siddhivinaya School in Hattiangadi. This institution provided a strong academic foundation coupled with a nurturing environment, fostering my early interest in learning and personal growth.</p>
                 </div>
