@@ -7,6 +7,7 @@ import { useState } from "react";
 import Project from "./projectCard";
 import wanderlust from "../assets/project images/wanderlust.png";
 import cloudview from "../assets/project images/cloudview.png";
+import designHub from "../assets/project images/designHub.png";
 
 function Projects() {
   const [cards] = useState([
@@ -25,6 +26,14 @@ function Projects() {
       desc: "A React.js weather app using the OpenWeatherMap API to display current conditions and forecasts. Features a responsive design for seamless user experience.",
       liveLink: "https://cloudview.netlify.app/",
       gitHubLink: "https://github.com/Prathamesh-Darekar/Weather-app.git",
+    },
+    {
+      image: designHub,
+      alternative: "DesignHub-image",
+      title: "Design Hub",
+      desc: "Developed backend for a website using Express.js and SQL. Added user authentication & authorization for secure access.Worked closely with the frontend developer to ensure a seamless user experience.",
+      liveLink: "https://design-hub.onrender.com",
+      gitHubLink: "https://github.com/ruthvij17/interior-design_app.git",
     },
     {
       image: currencyConverter,
